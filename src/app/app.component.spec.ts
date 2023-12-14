@@ -1,5 +1,5 @@
-import { TestBed } from '@angular/core/testing';
-import { AppComponent } from './app.component';
+import {TestBed} from '@angular/core/testing';
+import {AppComponent} from './app.component';
 
 describe('AppComponent', () => {
   beforeEach(async () => {
@@ -14,7 +14,7 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'husky-demo' title`, () => {
+  it('should have the husky-demo', () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
     expect(app.title).toEqual('husky-demo');
@@ -27,9 +27,11 @@ describe('AppComponent', () => {
     expect(compiled.querySelector('h1')?.textContent).toContain('Hello, husky-demo');
   });
 
-/*  it('should have a description', () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    const app = fixture.componentInstance;
-    expect(app.description).toEqual('This is a demo of Husky');
-  });*/
+  /*
+  it('should have a description', () => {
+      const fixture = TestBed.createComponent(AppComponent);
+      const app = fixture.componentInstance;
+      expect(app.description).toEqual('This is a demo of Husky');
+    });
+    */
 });
