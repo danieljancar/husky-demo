@@ -26,4 +26,7 @@ npx husky install
 ```bash
 npx husky add .husky/pre-commit "npm run lint"
 ```
-fs
+
+## References
+
+- [Presentation TechTalk](static/Husky%20Techtalk.pptx)
