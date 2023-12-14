@@ -11,4 +11,6 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'husky-demo';
+  // TODO: Implement description
+  description = 'This is a demo of Husky';
 }

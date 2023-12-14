@@ -26,4 +26,10 @@ describe('AppComponent', () => {
     const compiled = fixture.nativeElement as HTMLElement;
     expect(compiled.querySelector('h1')?.textContent).toContain('Hello, husky-demo');
   });
+
+/*  it('should have a description', () => {
+    const fixture = TestBed.createComponent(AppComponent);
+    const app = fixture.componentInstance;
+    expect(app.description).toEqual('This is a demo of Husky');
+  });*/
 });
