@@ -31,7 +31,7 @@ describe('AppComponent', () => {
   it('should have a description', () => {
       const fixture = TestBed.createComponent(AppComponent);
       const app = fixture.componentInstance;
-      expect(app.description).toEqual('This is a demo of Husky');
+      expect(app.description).toEqual('This is a demo of Husky.');
     });
     */
 });
