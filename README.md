@@ -29,9 +29,11 @@ npx husky add .husky/pre-commit "npm run lint"
 
 ## Result
 
-When trying to commit, the pre-commit hook will run and lint the code. If there are any errors, the commit will be aborted.
+When trying to commit, the pre-commit hook will build, test and lint the code. If there are any errors, the commit will be aborted.
 
-![Husky Demo in Terminal](static/husky-demo.gif)
+<div align="center">
+    <img src="static/husky-demo.gif" alt="Husky commit hook" width="800" height="auto"/>
+</div>
 
 ## References
 
