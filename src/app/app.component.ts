@@ -12,5 +12,5 @@ import { RouterOutlet } from '@angular/router';
 export class AppComponent {
   title = 'husky-demo';
   // TODO: Implement description property including test
-  // description = 'This is a demo of Husky.';
+  description = 'This is a demo of Husky.';
 }
