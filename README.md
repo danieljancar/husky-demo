@@ -38,3 +38,4 @@ When trying to commit, the pre-commit hook will build, test and lint the code. I
 ## References
 
 - [Presentation TechTalk](static/Husky%20Techtalk.pptx)
+- [Youtube video from Angular Nation](https://www.youtube.com/watch?v=FvfAXG92UqY&ab_channel=AngularNation)
